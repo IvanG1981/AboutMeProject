@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>About me</title>
+    <link rel="stylesheet" href="styleMe.css">
+  </head>
+<body>
+  <div class="clearfix" id="yellow">
+    <img id="picture1" src="images/SCL.jpg">
+    <h1 id="question">Who am I?</h1>
+    <h2>I'm Ivan Gonzalez</h2>
+    <p>Born in Bogota, <strong>Colombia</strong> 37 years ago, graduated as an Electronic engineer, but instead of finding a job in my field of study,
+      life put me in a path working 12 years as a field engineer in the Oil & Gas industry; this path took me to every continent, from working in the jungle,
+      to the desert, and from cold places to spent weeks at a time in the middle of the persian gulf. In 2015 I met my current wife (amazingly through a dating app)
+      and I started to think about a radical career change, for something that gave more time for myself and building a family, and at the same time allowed
+      me to explore my creativity, and enjoy it in the process. That's how this path lead me to coding once again since the university and to
+      Bogota Dev Bootcamp.
+      <h3>and a little more about me...</h3><p>I'm a person who likes to spent time with nature, love animals (we have two cats and a dog), I enjoy traveling, explore new places, meet people and learn
+      from different cultures and also, its very important for me to share quality time with my family. I do workout everyother day, and I play football, but not as
+      regularly a I would like to (and as I used to). </p>
+    </p>
+  </div>
+  <div class="clearfix" id="blue">
+
+    <img id="picture2" src="images/family.jpg">
+
+  </div>
+
+  <div class="clearfix" id="red">
+
+          <ul><img id="picture3" src="images/oilrig.jpg">
+            <li>Email: gonzalez.ivand@gmail.com</li>
+            <li>Cel: +57(321)2160533</li>
+            <li>Home Phone:+5714450973</li>
+            <li>Github: IvanG1981</li>
+            <li>Linkdin: linkedin.com/in/ivan-gonzalez-0284995b </li>
+            <li>Skype: ivgonzo</li>
+          </ul>
+
+        <button class= "button" onclick="greet()"><strong>Say Hi</strong></button>
+        <a id="demo"></a>
+  </div>
+  <script>
+  /*  <button type="button" onclick="curse()">Curse</button>
+      <button type="button" onclick="compliment()">xoxo</button>
+      <button type="button" onclick="fareWell()">Bye</button>
+  */
+
+      //JS code will be tagged as a script element, inside the HTML body
+    //function greet(){
+      //document.getElementById("demo").style.display='block';
+      //document.getElementById("demo").innerHTML = "Hello, I'm Ivan, how can I help you?";
+    //}
+
+    /*function greet(){
+      //Using document.write() after an HTML document is loaded, will delete all existing HTML:
+      //document.write("Get the fuck out of here!!");
+      document.getElementById("demo").innerHTML = "Get the fuck out of here!!";
+    }*/
+
+    function greet(){
+      document.getElementById("demo").innerHTML = "Hello, I'm Ivan, how can I help you?";
+    }
+    /*function greet(){
+        window.alert("Hello, I'm Ivan, how can I help you?");
+    }*/
+    //JS code will be located here
+    /*function greetInSpanish(){
+          console.log('Buenas Tardes.');
+    }*/
+
+    /*<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+      Click me to display Date and Time.</button>*/
+
+    /*let i = 1;
+    if(i >= 5){
+          alert(i);
+    }
+    else {
+          document.getElementById("demo").innerHTML = "Hellooooo Motherfucker";
+    }*/
+
+  </script>
+</body>
+</html>
